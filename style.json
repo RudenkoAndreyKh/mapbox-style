@@ -176,7 +176,6 @@
                 ]
             }
         },
-        
         {
             "id": "water",
             "type": "fill",
@@ -184,7 +183,7 @@
             "source-layer": "water",
             "filter": ["all"],
             "layout": {},
-            "paint": {"fill-color": "#000000"}
+            "paint": {"fill-color": "#a5c7ff"}
         },
         {
             "id": "aeroway-polygon",
@@ -1186,4 +1185,8 @@
             }
         }
     ]
+
+
+
+    
 }
