@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Basic Template",
+    "name": "Bright",
     "metadata": {
         "mapbox:origin": "basic-template",
         "mapbox:autocomposite": true,
@@ -16,13 +16,13 @@
     "bearing": 0,
     "pitch": 0,
     "sources": {
-        "composite": {
-            "url": "mapbox://mapbox.mapbox-streets-v8",
+        "mapbox": {
+            "url": "https://osm2vectortiles.tileserver.com/v2.json",
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/thesinner/cjygxiqe60ub91cmv8w5vaaik/629bpdwpqxu5j66f3aoku8h84",
-    "glyphs": "mapbox://fonts/thesinner/{fontstack}/{range}.pbf",
+    "sprite": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/sprites/bright-v9",
+    "glyphs": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/glyphs/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
@@ -3913,10 +3913,4 @@
             "source-layer": "country_label"
         }
     ],
-    "created": "2019-07-24T07:31:17.424Z",
-    "id": "cjygxiqe60ub91cmv8w5vaaik",
-    "modified": "2019-07-24T08:33:56.472Z",
-    "owner": "thesinner",
-    "visibility": "private",
-    "draft": false
 }
